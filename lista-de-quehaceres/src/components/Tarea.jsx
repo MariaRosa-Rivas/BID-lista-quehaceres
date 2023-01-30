@@ -9,7 +9,7 @@ const Tarea = (props) => {
             :
             props.name}
             <input type="checkbox" checked={props.status} onChange={(e) => props.handleStatus(e.target.checked, props.index)}/>
-            <button onClick={(e)=>props.handleDelete(props.index)}>Delete</button>
+            <button className="negro" onClick={(e)=>props.handleDelete(props.index)}>Delete</button>
         </li>
     </div>
   )

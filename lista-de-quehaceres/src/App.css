@@ -1,3 +1,18 @@
 .App {
   text-align: center;
 }
+.azul{
+  background-color: blue;
+  border: none;
+  border-radius: 6px;
+  color:white;
+}
+.negro{
+  background-color:black;
+  border: none;
+  border-radius: 6px;
+  color:white;
+}
+input{
+  background-color: azure;
+}

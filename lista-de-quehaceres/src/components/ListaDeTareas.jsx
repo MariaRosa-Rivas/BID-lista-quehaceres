@@ -29,7 +29,7 @@ const ListaDeTareas = () => {
     <div>
         <form onSubmit={ handleNewchores }>
             <input type="text" value={newChores} onChange ={(e)=> setNewChores(e.target.value)}  />
-            <button>Agregar</button>
+            <button className="azul">Agregar</button>
         </form>
         <ul>
            {chores.map((item, idx, list)=>{
